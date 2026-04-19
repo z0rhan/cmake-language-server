@@ -6,9 +6,9 @@ authors = [
     {name = "Regen"},
 ]
 dependencies = [
-    "pygls>=1.1.1",
+    "pygls>=1.1.1,<2",
 ]
-requires-python = ">=3.8.0,<3.14"
+requires-python = ">=3.8.0,<3.15"
 readme = "README.md"
 license = {text = "MIT"}
 keywords = ["cmake", "completion", "vim", "lsp"]
